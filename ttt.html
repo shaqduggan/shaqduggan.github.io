@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ttt.css">
+
+    <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+<h1 class="header">
+    <a class="text-white-50" href="index.html"><button id="button1" class="btn-lg mt-4 px-5 py-3">Main Page</button></a>
+</h1>
+
+<h2>
+<form id="playerForm" class="header">
+    <div>
+    Choose X or O?
+    <br><br><br>
+    </div>
+    <input type="radio" name="radio" value="X">X
+    <input type="radio" name="radio" value="O">O
+</form>
+</h2>
+
+<h2>
+    <div id="playerOne" class="header"></div>
+</h2>
+
+
+<div id="gameResult" class="header"></div>
+<div id="congratsOrSorry" class="header"></div>
+
+<section id="gameInfo" class="infoContainer displayNone">
+    <div id="yourTurn" class="infoBox">Your Turn</div>
+    <button id="resetButton" class="infoBox">Give up</button>
+    <div id="compTurn" class="infoBox">Computer's turn</div>
+</section>
+
+<div id="counter" class="header displayNone"></div>
+
+<section id="gameGrid" class="gameContainer displayNone">
+    <div class="item item-1" id='one'> topLeftBox </div>
+    <div class="item item-2" id='two'>topMidBox</div>
+    <div class="item item-3" id='three'>topRightBox</div>
+
+    <div class="item item-4" id='four'>midLeftBox</div>
+    <div class="item item-5" id='five'>midMidBox</div>
+    <div class="item item-6" id='six'>midRightBox</div>
+
+    <div class="item item-7" id='seven'>botLeftBox</div>
+    <div class="item item-8" id='eight'>botMidBox </div>
+    <div class="item item-9" id='nine'>botRightBox </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="ttt.js"></script>
+</body>
+</html>

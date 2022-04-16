@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  background-image:  url("images/peanut.png");  
+  background-color:chocolate;
+  display: flex;
+}
+
+nav > ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+a:hover{
+  margin: 5px 0px 5px 0px;
+  padding: 5px 0px 5px 0px;
+  background-color: chocolate;
+  transition: background-color 2s;
+  display: inline;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 4rem 0 2rem 0;
+  color: rgb(63, 5, 5);
+}
+
+body {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  color:black;
+  background-color: blueviolet;   
+}
+
+p {
+  margin: 15px;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.column-60 {
+  float: right;
+  padding: 0 4%;
+  width: 60%;
+}
+
+.column-40 {
+  float: left;
+  padding: 0 4%;
+  width: 60%;
+}
+
+.grid::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(143, 63, 6);
+  background-color: rgb(63, 5, 5);
+  padding: 1.7rem 2.5rem;
+  margin: 1.5rem 0;
+  height: 5rem;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:none;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  transition: background-color 2s;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 1.5rem;
+  padding: 0;
+  border: 1px solid rgba(55, 56, 58, 0.1);
+  border-radius: 5px;
+  background-color: chocolate;
+}
+
+.card:hover {
+  box-shadow: 0 0 2rem -0.7rem black;
+  border: 1px solid black;
+}
+
+footer {
+  float: right;
+  padding: 2.5rem 5rem;
+  background-color:blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-info > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer-info > ul > li {
+  padding: 0 10px;
+}
+
+#footer-info > ul > li > a {
+  color:rgb(63, 5, 5);
+}

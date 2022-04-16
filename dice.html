@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dice.css">
+    <title>Dice Game</title>
+</head>
+  
+<body>
+  <p id="redBox1" class="p1"> </p>
+  <p id="redBox2" class="p1"> </p>
+  <p id="redTotal" class="p1"> </p>
+
+  <p id="blueBox1" class="p2"> </p>
+  <p id="blueBox2" class="p2"> </p>
+  <p id="blueTotal" class="p2"> </p>
+       
+    <div class="container">
+    <center>
+      <div class="row">      
+        <h6>Rules: Each player gets five chances to roll dice</h6>
+        <h6>RED TOTAL is Third value in red </h6>
+        <h6>BLUE TOTAL is First value in blue</h6>
+        <h6>ADD your five totals</h6> 
+        <h3>Greatest Total wins!</h3>
+        <table>
+          <tr>
+            <th>
+                <button type="button" class="butn" id="b1" >Click here to See Player Red Number</button>
+                <div class="dice">
+                    <p class="Player1">Player Red</p>
+                    <img class="img1" id="dice1"
+                    src="images/red.png" height="200px" width="200px" alt="Dice">
+
+                </div>
+            </th>
+            
+            <th>
+                <button type="button" class="butn"  id="b2" >Click here to See Player Blue Number</button>
+                <div class="dice">
+                    <p class="Player2">Player Blue</p>
+                    <img class="img2" id="dice2"
+                    src="images/blue.png" height="200px" width="200px" alt="Dice">
+
+                </div>
+            </th>
+          </tr>
+        </table>
+        <a href="index.html"><button id="b2" class="btn-lg mt-4 px-5 py-3">Main Page</button></a>
+      
+      </div>
+    <center>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dice.js"></script>
+</body>
+</html>

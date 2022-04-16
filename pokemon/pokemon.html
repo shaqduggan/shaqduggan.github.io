@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokemon.css">
+  <title>Choose Your Pokemon!</title>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <h1>Choose Your Pokemon!</h1>
+        <ul>
+          <li><a href="mailto:shaq.duggan.se@gmail.com">Contact</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../index.html">Home</a></li>
+        </ul>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+       <!--Center the entire Div row -->
+      <center>
+        <!-- Use Table tag to seperate the three pokeball images with 3 tableheaders tags(th) under one tablerow tag(tr) -->
+        <table>
+          <tr>
+            <!-- create three descriptive Header(h1) tags on top of respective pokeball image tag -->
+            <th>
+              <!-- Closed Pokeball image.Linked JS function will change original image into pokemon image on click-->
+              <div class="col-md-4">
+                <img class="ball-img" id="bulbasaur" onclick="renderBulbasaur()"
+                src="../images/pokeball.png" height="500px" width="500px"   alt="Pokeball">
+                <a class="text-white-50" href="bulbasaur.html"><button id="button1" class="btn-lg mt-3 px-3 py-3">Learn More!</button></a>
+              </div>
+            </th>
+            
+            <th>
+              <!-- Closed Pokeball image.Linked JS function will change original image into pokemon image on click-->
+              <div class="col-md-4">
+                <img class="ball-img" id="squirtle" onclick="renderSquirtle()"
+                src="../images/pokeball.png" height="500px" width="500px" alt="Pokeball">
+                <a class="text-white-50" href="squirtle.html"><button id="button2" class="btn-lg mt-3 px-3 py-3">Learn More!</button></a>
+              </div>
+              
+            </th>
+
+            <th>
+              <!-- Closed Pokeball image.Linked JS function will change original image into pokemon image on click-->
+              <div class="col-md-4">
+                  <img class="ball-img" id="charmander" onclick="renderCharmander()"
+                  src="../images/pokeball.png" height="500px" width="500px" alt="Pokeball">
+                  <a class="text-white-50" href="charmander.html"><button id="button3" class="btn-lg mt-3 px-3 py-3">Learn More!</button></a>
+              </div>
+              
+            </th>
+          </tr>
+        </table>
+      </center>
+      </div>
+
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Linked Javascript -->
+<script src="pokemon.js"></script>
+</body>
+
+</html>

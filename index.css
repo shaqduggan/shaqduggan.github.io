@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+   	float: right;
+    margin-left: 0px;
+ 
+}
+
+li a {
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+   background-color: #ddff00;
+}
+
+
+
+body{
+    background-image:url("images/p-3b.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 1600px;
+    
+}
+
+
+#landingPageContainer{
+    width: 50%;
+    margin-top: 15%;
+    background-image: linear-gradient(black);
+    color: black;
+}
+
+#landingPageParagraph{  
+    margin-top: 30px;
+    color: black;
+}
+
+#bqFooter{
+    margin-top: 10px;
+    color: black;
+}
+

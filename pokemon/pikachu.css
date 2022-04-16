@@ -1,0 +1,15 @@
+#landingPageContainer{
+    width: 50%;
+    margin-top: 15%;
+    color: yellow;
+}
+
+#landingPageParagraph{  
+    margin-top: 30px;
+    color: black;
+}
+
+#bqFooter{
+    margin-top: 10px;
+    color: black;
+}

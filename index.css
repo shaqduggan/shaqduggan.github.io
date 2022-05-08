@@ -1,15 +1,27 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body {
+    background-image:url("images/p-3b.png");
+    background-size: 1600px;
+
+}
+
+#landingPageContainer {
+    width: 50%;
+    margin-top: 20%;
+    color: black;
+
+}
+
+a:hover {
+    box-shadow: 0 0 2rem -0.7rem black;
+    border: 1px solid black;
+    text-decoration: none;
 
 }
 
 li {
-   	float: right;
-    margin-left: 0px;
- 
+    list-style-type: none;
+    float: left;
+
 }
 
 li a {
@@ -19,31 +31,5 @@ li a {
     padding: 4px;
     text-decoration: none;
     text-transform: uppercase;
+
 }
-
-li a:hover {
-   background-color: #ddff00;
-}
-
-
-
-body{
-    background-image:url("images/p-3b.png");
-    background-repeat: no-repeat, repeat;
-    background-size: 1600px;
-    
-}
-
-
-#landingPageContainer{
-    width: 50%;
-    margin-top: 15%;
-    background-image: linear-gradient(black);
-    color: black;
-}
-
-#landingPageParagraph{  
-    margin-top: 30px;
-    color: black;
-}
-

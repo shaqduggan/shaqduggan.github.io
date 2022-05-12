@@ -8,28 +8,18 @@ body {
     width: 50%;
     margin-top: 20%;
     color: black;
-
 }
 
 a:hover {
+    color: black;
     box-shadow: 0 0 2rem -0.7rem black;
-    border: 1px solid black;
-    text-decoration: none;
-
+    border: 3px solid black;
 }
 
-li {
-    list-style-type: none;
-    float: left;
 
-}
-
-li a {
-    display: block;
-    width: 80px;
-    text-align: center;
-    padding: 4px;
+footer a {
+    color: black;
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
-
 }

@@ -16,14 +16,13 @@ function TheNumber(rednum1, rednum2) {
     redTotal.innerHTML = rednum1 + rednum2;
 }
 //Create button variable to get the button of Player Red by id then add .onclick for functionality and connect to dice.roll() 
-var button = document.getElementById('b1'); 
+var button = document.getElementById('b1')
 // Use .roll() to put random number generated as an argument in TheNumber function
     button.onclick = function() {
     var resultR1 = dice.roll();
     var resultR2 = dice.roll();
     TheNumber(resultR1,resultR2);
-};
-//########################################################################################################################################
+}
 //Player Blue - Die2 variable with sides, and roll:function to generate random number of die2 being rolled between 1-6 
 var dice2 = {
     sides: 6,
@@ -42,10 +41,10 @@ function TheNumber2(bluenum1, bluenum2) {
     blueTotal.innerHTML = bluenum1 + bluenum2;
 }
 //Create button2 variable to get the button of Player Blue by id then add .onclick for functionality and connect to dice2 variable
-var button2 = document.getElementById('b2');
+var button2 = document.getElementById('b2')
 // Use .roll() to put random number generated as an argument in TheNumber2 function 
     button2.onclick = function() {
     var resultB1 = dice2.roll();
     var resultB2 = dice2.roll();
     TheNumber2(resultB1,resultB2);
-};
+}

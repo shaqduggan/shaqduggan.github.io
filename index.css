@@ -10,43 +10,8 @@ header h1 {
     margin: 15% 25% 0% 25%;
 }
 
-/* div {  
-    border: 3px solid black;
-
-} */
-
-.first {
-    padding: 5px 10px 5px 10px;
-    margin: 0% 0% 0% 3%;
-    width: 300px; 
-    height:300px; 
-    float:left;
-}
-
-.middle { 
-    padding: 5px 10px 5px 10px;
-    margin: 0% 0% 0% 3%;
-    width: 300px; 
-    height:100px; 
-    float:left;
-}
-
-.last { 
-    padding: 5px 10px 5px 10px;
-    margin: 0% 0% 0% 3%;
-    width: 300px; 
-    height:100px;
-    float:left;
-}
-
 p {
     color: gold;
-
-}
-
-p a {
-    color: gold;
-
 }
 
 a {
@@ -57,4 +22,33 @@ a {
 
 a:hover {
     color:  gold;
+}
+
+/* div {  
+    border: 3px solid black;
+
+} */
+
+.first { 
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:100px; 
+    float:left;
+}
+
+.second { 
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:100px;
+    float:left;
+}
+
+.third {
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:100px;
+    float:left;
 }

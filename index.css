@@ -6,6 +6,7 @@ body {
 }
 
 header h1 {
+    color: black;
     padding: 5px 10px 5px 10px;
     margin: 15% 25% 0% 25%;
     text-transform: capitalize;

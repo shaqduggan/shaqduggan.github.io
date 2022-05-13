@@ -1,25 +1,60 @@
 body {
+    display: block;
     background-image:url("images/p-3b.png");
     background-size: 1600px;
+}
+
+header h1 {
+    text-transform: capitalize;
+    padding: 5px 10px 5px 10px;
+    margin: 15% 25% 0% 25%;
+}
+
+/* div {  
+    border: 3px solid black;
+
+} */
+
+.first {
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:300px; 
+    float:left;
+}
+
+.middle { 
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:100px; 
+    float:left;
+}
+
+.last { 
+    padding: 5px 10px 5px 10px;
+    margin: 0% 0% 0% 3%;
+    width: 300px; 
+    height:100px;
+    float:left;
+}
+
+p {
+    color: gold;
 
 }
 
-#landingPageContainer {
-    width: 50%;
-    margin-top: 20%;
+p a {
+    color: gold;
+
+}
+
+a {
     color: black;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 a:hover {
-    color: black;
-    box-shadow: 0 0 2rem -0.7rem black;
-    border: 3px solid black;
-}
-
-
-footer a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+    color:  gold;
 }

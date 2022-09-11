@@ -1,7 +1,6 @@
 body {
-    display: block;
-    background-image:url("images/p-3b.png");
-    background-size: 1600px;
+    background: url('image.png') no-repeat center fixed;
+    background-size: cover;
     color: gold;
 }
 
